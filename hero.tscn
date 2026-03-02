@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cvlp5mmdam4fy"]
+
+[ext_resource type="Script" uid="uid://dmcd4qrhuokl4" path="res://hero.gd" id="1_p1r5x"]
+[ext_resource type="Texture2D" uid="uid://bym0tbbj2bfcr" path="res://icon.svg" id="2_u1ipw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xpv8o"]
+size = Vector2(120, 131)
+
+[node name="Hero" type="Area2D" unique_id=1408815599]
+script = ExtResource("1_p1r5x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1617355718]
+position = Vector2(-6, -6.5)
+shape = SubResource("RectangleShape2D_xpv8o")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1072719562]
+position = Vector2(-5, -3)
+scale = Vector2(0.9375, 1)
+texture = ExtResource("2_u1ipw")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

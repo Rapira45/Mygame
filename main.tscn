@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://3u1l0f5kqjkf"]
+
+[ext_resource type="Script" uid="uid://dkjrifrnngrh7" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cvlp5mmdam4fy" path="res://hero.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://gmre2fkgjwqi" path="res://Coin.tscn" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=1646163648]
+script = ExtResource("1_ig7tw")
+
+[node name="Hero" parent="." unique_id=1408815599 instance=ExtResource("2_0xm2m")]
+position = Vector2(505, 247)
+
+[node name="Coin" parent="." unique_id=1578689814 instance=ExtResource("3_h2yge")]
+position = Vector2(773, 198)
+
+[node name="Coin2" parent="." unique_id=360005991 instance=ExtResource("3_h2yge")]
+position = Vector2(240, 443)
+
+[node name="Coin3" parent="." unique_id=1755029170 instance=ExtResource("3_h2yge")]
+position = Vector2(889, 516)
+
+[node name="Coin4" parent="." unique_id=1949217309 instance=ExtResource("3_h2yge")]
+position = Vector2(236, 601)
+
+[node name="Coin5" parent="." unique_id=681815954 instance=ExtResource("3_h2yge")]
+position = Vector2(1009, 221)
+
+[node name="Coin6" parent="." unique_id=2003601433 instance=ExtResource("3_h2yge")]
+position = Vector2(87, 171)
