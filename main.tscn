@@ -10,22 +10,22 @@ script = ExtResource("1_ig7tw")
 [node name="Hero" parent="." unique_id=1408815599 instance=ExtResource("2_0xm2m")]
 position = Vector2(505, 247)
 
-[node name="Coin" parent="." unique_id=1578689814 instance=ExtResource("3_h2yge")]
+[node name="Coin" parent="." unique_id=1578689814 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(773, 198)
 
-[node name="Coin2" parent="." unique_id=360005991 instance=ExtResource("3_h2yge")]
+[node name="Coin2" parent="." unique_id=360005991 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(240, 443)
 
-[node name="Coin3" parent="." unique_id=1755029170 instance=ExtResource("3_h2yge")]
+[node name="Coin3" parent="." unique_id=1755029170 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(889, 516)
 
-[node name="Coin4" parent="." unique_id=1949217309 instance=ExtResource("3_h2yge")]
+[node name="Coin4" parent="." unique_id=1949217309 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(236, 601)
 
-[node name="Coin5" parent="." unique_id=681815954 instance=ExtResource("3_h2yge")]
+[node name="Coin5" parent="." unique_id=681815954 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(1009, 221)
 
-[node name="Coin6" parent="." unique_id=2003601433 instance=ExtResource("3_h2yge")]
+[node name="Coin6" parent="." unique_id=2003601433 groups=["Coins"] instance=ExtResource("3_h2yge")]
 position = Vector2(87, 171)
 
 [node name="Timer" type="Timer" parent="." unique_id=1382588255]

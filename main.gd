@@ -19,4 +19,3 @@ func _on_timer_timeout() -> void:
 	if t == 0:
 		$Label.text = ("You lose")
 		$Timer.paused = true
-	
