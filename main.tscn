@@ -27,3 +27,17 @@ position = Vector2(1009, 221)
 
 [node name="Coin6" parent="." unique_id=2003601433 instance=ExtResource("3_h2yge")]
 position = Vector2(87, 171)
+
+[node name="Timer" type="Timer" parent="." unique_id=1382588255]
+autostart = true
+
+[node name="Label" type="Label" parent="." unique_id=854229536]
+offset_left = 473.0
+offset_top = 26.0
+offset_right = 549.0
+offset_bottom = 56.0
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
