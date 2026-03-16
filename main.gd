@@ -17,5 +17,12 @@ func _on_timer_timeout() -> void:
 	t -= 1
 	$Label.text = str(t)
 	if t == 0:
-		$Label.text = ("You lose")
+		$Label.text = ("You lose!")
 		$Timer.paused = true
+	else:
+		var n=len(get_tree().get_nodes_in_group("Coins"))
+		print(n)
+		if n == 0:
+			$Label.text = ("You Win!")
+			$Timer.paused = true
+			

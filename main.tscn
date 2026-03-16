@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cvlp5mmdam4fy" path="res://hero.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://gmre2fkgjwqi" path="res://Coin.tscn" id="3_h2yge"]
 
-[node name="Main" type="Node2D" unique_id=1646163648]
+[node name="Lelel1" type="Node2D" unique_id=1646163648]
 script = ExtResource("1_ig7tw")
 
 [node name="Hero" parent="." unique_id=1408815599 instance=ExtResource("2_0xm2m")]
